@@ -130,3 +130,112 @@ a:hover {
   text-decoration: none;
 }
 
+/* MEDIA QUERIES */ 
+
+/* laptop 
+@media screen and (min-width: 1200px) 
+  and (max-width: 1600px) {
+    .top-cloud {
+      top: 20px;
+      right: 150px;
+    }
+  }
+
+/* tablet 
+ @media only screen 
+  and (min-width: 768px) 
+  and (max-width: 1024px) {
+
+  }
+
+  /* mobile */ 
+
+  /* Portrait and Landscape */
+  
+@media screen  and (max-width: 640px) {
+  h1{
+    font-size: 3rem;
+    margin: 0;
+  }
+  .sub-title {
+    font-size: 1.2rem;
+    
+  }
+  .top-cloud {
+    top: 5%;
+    left: 5%;
+    width: 30%;
+  }
+  .bottom-cloud {  
+    left: 65%;
+    width: 30%;
+    bottom: 0;
+  }
+  .top-container {
+    padding: 50px auto;
+  }
+  .mountain-image {
+    display: none;
+  }
+
+  .profile img {
+    width: 65%;
+    height: 65%;
+  }
+
+  .intro {
+    width: 100%;
+    text-align: left;
+    margin: 15px;
+    padding: 5px;
+    line-height: 1.5;
+  }
+  hr {
+    width: 40%;
+    margin: 10% auto;
+  }
+
+  .skills h2 {
+    font-size: 2rem;
+    margin: 10px;
+    padding: 5px;
+  }
+
+  .skill-logo {
+    width: 90%;
+  }
+
+  .skill-row {
+    margin: 0;
+    padding: 0;
+  }
+  .skill-row h3 {
+    text-align: center;
+    display: inline-block;
+  }
+  .skill-row, p {
+    width: 100%;
+    text-align: left;
+    padding: 5px;
+    line-height: 1.5;
+  }
+
+  .programming-logo {
+    width: 90%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .contact-me h2 {
+    font-size: 2rem;
+    margin: 10px auto;
+  }
+  
+  .contact-me p {
+    text-align: center;
+  }
+  .btn {
+    margin-top: 10px;
+  }
+
+  }
